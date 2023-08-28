@@ -1,0 +1,83 @@
+body{
+    margin : 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f77d7d;
+}
+
+#formulario{
+    margin: 30px, auto;
+    padding: 20 solid #CCCCCC;
+    background-color: #f15e5e;
+    border: 1px solid #CCCCCC;
+    border-radius: 10px;
+}
+
+label{
+    font-size: 16px;
+    font-weight: bold;
+    color : #3d3737
+}
+
+input[type="text"], 
+input[type="email"],
+textarea{
+    padding: 10px;
+    border:1px solid #CCCCCC;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"]{
+    margin-right: 5px;
+}
+
+input[type="submit"],
+button[type="button"],
+input[type="reset"]{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+button[type="button"]{
+    background-color: #511e51;
+    color: #FFFFFF
+}
+
+select{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 50%;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to bottom, #FFFFFF, #f568ba);
+}
+
+select:focus{
+    background-color: #ff029e;
+}
+
+legend{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+input:invalid{
+    border: 2px solid;
+    background-color: #968484;
+}
+
+#rodape{
+    margin: 0 auto;
+    text-align: center;
+    color: blueviolet;
+    background-color: white;
+}

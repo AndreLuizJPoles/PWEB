@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Exercício Forms e CSS</title>
+</head>
+<body>
+    <main>
+        <form action="" id="formulario">
+            <section>
+                <fieldset>
+                    <legend>Informações Pessoais do Aluno</legend>
+                    <label for="nome">Nome: </label>
+                    <input type="text" id="nome" name="nome" required size="50" maxlength="50" autofocus>
+                    <br><br>
+
+                    <label for="email">E-mail: </label>
+                    <input type="email" name="email" id="email" required size="50">
+                    <br><br>
+
+                    <label for="turma">Turma: </label>
+                    <input type="radio" name="turma" id="turma1" checked>
+                    <label for="turma1">Turma 1</label>
+                    <input type="radio" name="turma" id="turma2">
+                    <label for="turma2">Turma 2</label>
+                    <br><br>
+
+                    <label for="disciplinas">Disciplinas: </label>
+                    <input type="checkbox" name="disciplinas" id="pweb" value="pweb">
+                    <label for="pweb">PWEB</label>
+                    <input type="checkbox" name="disciplinas" id="aorg" value="aorg">
+                    <label for="aorg">AORG</label>
+                    <input type="checkbox" name="disciplinas" id="so1" value="so1">
+                    <label for="so1">SO1</label>
+                    <input type="checkbox" name="disciplinas" id="redes" value="redes">
+                    <label for="redes">REDES</label>
+                    <br><br>
+
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Limpar">
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Deixe Aqui Alguma Informação Que Julgue Importante</legend>
+                    <textarea name="mensagem" id="mensagem" cols="50" rows="5"></textarea>
+                    <br><br>
+                    
+                    <label for="cidade">Cidade: </label>
+                    <select name="cidade" id="cidade">
+                        <option value="sorocaba">Sorocaba</option>
+                        <option value="tatui">Tatuí</option>
+                        <option value="votorantim">Votorntim</option>
+                        <option value="campos do jordao">Campos do Jordão</option>
+                        <option value="piedade">Piedade</option>
+                        <option value="afonsoland">Afonsoland</option>
+                        <option value="americo brasiliense">Américo Brasiliense</option>
+                    </select>
+                    <br> <br>
+                    <button type="button">Cancelar</button>
+                </fieldset>               
+            </section>
+        </form>
+    </main>
+    <footer id="rodape">
+        <p>Página criada na aula de Pweb - Direitos Reservados = 2023</p>
+    </footer>
+</body>
+</html>
