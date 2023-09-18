@@ -10,5 +10,5 @@ var resto = parseFloat(num1) % parseFloat(num2);
 alert("Soma: " + soma + "\n" + 
       "Subtração: " + sub + "\n" +
       "Produto: " + prod + "\n" +
-      "Divisão: " + div + "\n" +
+      "Divisão: " + div.toFixed(2) + "\n" +
       "Resto: " + resto);

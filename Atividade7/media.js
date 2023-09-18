@@ -5,4 +5,4 @@ var nota3 = prompt("Qual a terceira nota?");
 
 var media = (parseFloat(nota1) + parseFloat(nota2) + parseFloat(nota3))/3.0;
 
-alert("A média de " + nome + " é " + media);
+alert("A média de " + nome + " é " + media.toFixed(2));
