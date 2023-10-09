@@ -1,81 +1,81 @@
-@media (max-width: 420px){
-    #minhaDiv{
+@media (max-width: 420px) {
+    #minhaDiv {
         background-color: gray;
     }
 
-    .Cor::after{
+    .Cor::after {
         content: "Cinza";
     }
 }
 
-@media (max-width: 768px) and (min-width: 420px){
-    #minhaDiv{
+@media (max-width: 768px) and (min-width: 420px) {
+    #minhaDiv {
         background-color: orange;
     }
 
-    .Cor::after{
+    .Cor::after {
         content: "Laranja";
     }
 }
 
-@media (max-width: 1024px) and (min-width: 768px){
-    #minhaDiv{
+@media (max-width: 1024px) and (min-width: 768px) {
+    #minhaDiv {
         background-color: pink;
     }
 
-    .Cor::after{
+    .Cor::after {
         content: "Rosa";
     }
 }
 
-@media (max-width: 1080px) and (min-width: 1024px){
-    #minhaDiv{
+@media (max-width: 1080px) and (min-width: 1024px) {
+    #minhaDiv {
         background-color: red;
     }
 
-    .Cor::after{
+    .Cor::after {
         content: "Vermelho";
     }
 }
 
-@media (max-width: 1366px) and (min-width: 1080px){
-    #minhaDiv{
+@media (max-width: 1366px) and (min-width: 1080px) {
+    #minhaDiv {
         background-color: purple;
     }
 
-    .Cor::after{
+    .Cor::after {
         content: "Roxo";
     }
 }
 
-@media (max-width: 1920px) and (min-width: 1366px){
-    #minhaDiv{
+@media (max-width: 1920px) and (min-width: 1366px) {
+    #minhaDiv {
         background-color: yellow;
     }
 
-    .Cor::after{
+    .Cor::after {
         content: "Amarelo";
     }
 }
 
-@media (min-width: 1920px){
-    #minhaDiv{
+@media (min-width: 1920px) {
+    #minhaDiv {
         background-color: brown;
     }
 
-    .Cor::after{
-        content: "Marrom";
+    .Cor::after {
+        content: "Margsom";
     }
 }
 
-#minhaDiv{
+#minhaDiv {
     width: 500px;
     height: 500px;
     margin: auto;
 }
 
-.Cor{
+.Cor {
     position: relative;
-    top:50%;
+    top: 50%;
     text-align: center;
 }
