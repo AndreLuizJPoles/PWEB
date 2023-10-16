@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Atividade 11</title>
+</head>
+
+<body>
+    <script>
+        //Forma 1, usando o Object
+        var aluno1 = new Object()
+        aluno1.RA = "0030482211015"
+        aluno1.nome = "André Luiz Junqueira Poles"
+        alert("RA: " + aluno1.RA + "\n" + "Nome: " + aluno1.nome)
+
+        //Forma2, usando o {}
+        var aluno2 = {}
+        aluno2.RA = "0030482211010"
+        aluno2["nome"] = "Julia Cassemiro"
+        alert("RA: " + aluno2.RA + "\n" + "Nome: " + aluno2.nome)
+
+        //Forma 3, usando literal
+        var aluno3 = {
+            RA: "0030482211011",
+            nome: "Rarissa Correa"
+        };
+        alert("RA: " + aluno3.RA + "\n" + "Nome: " + aluno3.nome)
+
+        //Forma 4, usando função construtora
+        function Aluno(RA, nome) {
+            this.RA = RA
+            this.nome = nome
+
+            this.mostraDados = function () {
+                return "RA: " + this.RA + "\n" + "Nome: " + this.nome
+            }
+        }
+        var aluno4 = new Aluno("0030482211007", "João Antonio Martins Ghizzi")
+        alert(aluno4.mostraDados())
+        
+        //Forma 5
+        var aluno5 = {}
+        var nome_propriedade = "RA"
+        aluno5[nome_propriedade] = "0030482211017"
+        aluno5['nome'] = "Mikael Natã Lenartevitz"
+        alert("RA: " + aluno5.RA + "\n" + "Nome: " + aluno5.nome)
+
+        //Forma 6
+        function Aluno() {
+            var RA
+            var nome
+
+            this.setNome = function (nome){
+                this.nome = nome
+            }
+            this.getNome = function(){
+                return this.nome
+            }
+            this.setRA = function (RA) {
+                this.RA = RA
+            }
+            this.getRA = function(){
+                return this.RA
+            }
+        }
+    </script>
+</body>
+
+</html>
