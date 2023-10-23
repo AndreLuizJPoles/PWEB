@@ -1,0 +1,17 @@
+#grupo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.titulo {
+    margin-left: 2rem;
+}
+
+body {
+    text-align: center;
+}
+
+#texto {
+    margin-top: 5rem;
+}
